@@ -1,0 +1,100 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 80%; 
+    height: 50px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 150px;
+    margin-top: 20px;
+    padding: 0 20px; 
+    z-index: 100; 
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .logo {
+    width: 150px; 
+  }
+  
+  .navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .language-dropdown {
+    position: relative;
+  }
+  
+  .selected-language-button {
+    background-color: transparent;
+    border: 1px solid white; 
+    border-radius: 3px;
+    padding: 8px 12px; 
+    cursor: pointer;
+    color: #fff;
+    font-size: medium;
+    letter-spacing: 1px;
+  }
+  
+  
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+    background-color: black; 
+    width: 100%;
+    color: white;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+  }
+  
+  .dropdown-menu li.selected {
+    background-color: transparent; 
+    color: white;
+    font-weight: bold;
+  }
+  
+  .dropdown-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .dropdown-menu li {
+    padding: 8px 12px; 
+    cursor: pointer;
+  }
+  
+  .dropdown-menu li:not(.selected):hover {
+    background-color: blue;
+    color: white;
+  }
+  
+
+  .language-dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+  .signup_btn {
+    background-color: red;
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+    color: #fff;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+  }
+
+  .signup_btn:hover {
+    cursor: pointer;
+    background-color: rgb(201, 40, 40);
+  }
+

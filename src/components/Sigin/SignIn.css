@@ -1,0 +1,137 @@
+.banner{
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/f85718e8-fc6d-4954-bca0-f5eaf78e0842/4bb1ccb0-6a3a-4b18-9697-9bcec11eae2a/QA-en-20230918-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fade_bottom{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 80rem;
+    background: rgb(0 0 0 / 40%);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+    z-index: 0;
+
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 80%; 
+    height: 50px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 40px;
+    margin-top: 20px;
+    padding: 0 20px; 
+    z-index: 100; 
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .logo {
+    height: 100%;
+    width: 150px; 
+  }
+
+  .signin_container {
+    padding-top: 20px;
+    padding-left: 15px;
+    position: relative;
+    z-index: 1;
+    height: 70%;
+    width: 27%;
+    background-color:  rgb(0 0 0 / 60%);
+    
+  }
+
+  .signin_input {
+    background-color: rgb(74, 73, 73);
+    padding: 10px;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    flex-grow: 1;
+    height: 25px;
+    width: 70%;
+    margin: 10px;
+  }
+  .submit_btn {
+    background-color: red;
+    padding: 10px;
+    flex-grow: 1;
+    color: white;
+    border-radius: 5px;
+    height: 50px;
+    width: 75%;
+    margin: 25px;
+    font-weight: bold;
+    font-size: large;
+    margin-bottom: 6px;
+  }
+
+  .checkbox-container {
+    margin-left: 47px;
+    margin-right: 47px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    
+  }
+  
+  .checkbox-label {
+    margin-right: 10px;
+    color: #8c8c8c;
+    
+  }
+  
+  .checkbox-link {
+    text-decoration: none;
+    color: #8c8c8c;
+    
+  }
+
+  .signin_footer {
+    margin-top: 60px;
+    margin-left: 50px;
+    text-align: left;
+    color: #8c8c8c;
+  }
+
+  .signin_footer a {
+    font-size: large;
+    color: whitesmoke;
+    text-decoration: none;
+  }
+
+  .signin_footer1 {
+    font-size: 14px;
+    margin-left: 50px;
+    text-align: left;
+    color: #8c8c8c;
+  }
+  .signin_header {
+    margin-top: 60px;
+    margin-left: 50px;
+    text-align: left;
+    color: whitesmoke
+  }
+
+  .error-message {
+    color: yellow;
+    font-size: smaller;
+  }

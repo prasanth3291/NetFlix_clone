@@ -1,0 +1,89 @@
+.banner{
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/f85718e8-fc6d-4954-bca0-f5eaf78e0842/4bb1ccb0-6a3a-4b18-9697-9bcec11eae2a/QA-en-20230918-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+    background-size: cover;
+    height: 700px;
+    color: white;
+    position: relative;
+}
+
+.content{
+    padding-top: 130px;
+    height: 280px;
+    padding-left: 15px;
+    position: relative;
+    z-index: 1;
+}
+
+.title{
+    margin: 0;
+    font-size: 3rem;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+
+.subtitle {
+    margin: 1rem 0 0;
+    font-size: 1.8rem;
+    font-weight: 400;
+    padding-bottom: 15px;
+}
+
+.description{
+    margin: 0;
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 1.5;
+    padding-bottom: 15px;
+}
+
+
+  .transparent-input {
+    border: 1px solid rgb(229, 211, 211);
+    background-color: transparent;
+    padding: 10px;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    flex-grow: 1;
+    height: 34px;
+    width: 350px; 
+  }
+  
+  .custom-button {
+    height: 54px;
+    width: 180px;
+    background-color: red; 
+    color: white;
+    border: none;
+    padding: 10px 20px; 
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 10px;
+  }
+  
+  .custom-button:hover {
+    background-color: rgb(213, 24, 24); 
+  }
+  
+
+.fade_bottom{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 44rem;
+    background: rgb(0 0 0 / 40%);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+    z-index: 0;
+
+}
+
+.gray {
+    margin-top: auto; 
+    width: 100%;
+    height: 7px;
+    background-color: rgb(37, 37, 37);
+
+}
